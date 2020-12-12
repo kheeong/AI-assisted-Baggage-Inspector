@@ -2,9 +2,6 @@ import tensorflow as tf
 from tensorflow.keras.applications.resnet_v2 import preprocess_input
 from tensorflow.keras import preprocessing
 import numpy as np
-from enum import Enum
-from io import BytesIO, StringIO
-from typing import Union
 import streamlit as st
 import cv2
 import pandas as pd
@@ -14,6 +11,7 @@ image_2 = Image.open('nodanger1.png')
 image_3 = Image.open('danger2.png')
 image_4 = Image.open('nodanger2.jpg')
 STYLE = """
+<h1 style='text-align: center;'> AI-assisted-Baggage-Inspector</h1>
 <style>
 img {
     max-width: 100%;

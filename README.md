@@ -1,5 +1,6 @@
-"# AI-assisted-Baggage-Inspector" 
+# AI-assisted-Baggage-Inspector
 
 To run the code run:
-
-  streamlit run main.py
+```
+  -streamlit run main.py
+```

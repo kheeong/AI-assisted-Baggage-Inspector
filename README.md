@@ -2,4 +2,4 @@
 
 To run the code run:
 
-streamlit run main.py
+  streamlit run main.py
